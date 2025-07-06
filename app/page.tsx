@@ -132,7 +132,7 @@ export default function Page() {
                     className={`text-center z-10 transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
                 >
                     <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                        Hi, I'm Thibaut
+                        Hi, I&apos;m Thibaut
                     </h1>
                     <p className="text-2xl md:text-3xl mb-4 font-light">Fullstack Developer</p>
                     <p className="text-xl mb-8 max-w-2xl mx-auto opacity-80">
@@ -322,13 +322,13 @@ export default function Page() {
             <section className={`py-20 ${isDarkMode ? 'bg-gray-800' : 'bg-gray-50'}`}>
                 <div className="max-w-4xl mx-auto px-6">
                     <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                        Let's Work Together
+                        Let&apos;s Work Together
                     </h2>
                     <div className="grid md:grid-cols-2 gap-12">
                         <div>
                             <h3 className="text-2xl font-bold mb-6">Get In Touch</h3>
                             <p className="text-lg mb-8 opacity-80">
-                                Ready to bring your ideas to life? Let's discuss your next project
+                                Ready to bring your ideas to life? Let&apos;s discuss your next project
                                 and create something amazing together.
                             </p>
                             <div className="space-y-4">
@@ -363,7 +363,7 @@ export default function Page() {
                             </div>
                             <div>
                                 <textarea
-                                    rows="5"
+                                    rows={5}
                                     placeholder="Your Message"
                                     className={`w-full p-4 rounded-xl border ${isDarkMode ? 'bg-gray-900 border-gray-700' : 'bg-white border-gray-300'} focus:border-blue-600 focus:outline-none transition-colors resize-none`}
                                 ></textarea>
